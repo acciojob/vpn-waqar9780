@@ -58,10 +58,10 @@ public class UserServiceImpl implements UserService {
 
             userRepository3.save(user);
         }
-        else{
-            throw new Exception("Country not found");
+         else{
+             throw new Exception("Country not found");
         }
-        return user;
+         return user;
     }
 
     @Override
